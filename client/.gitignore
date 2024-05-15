@@ -1,12 +1,9 @@
+*.log
+
 node_modules
 dist
-.env.production
-
-# Defensive
 *.local
-*.log
 
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
-
