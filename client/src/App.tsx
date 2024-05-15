@@ -6,9 +6,20 @@ import './App.css';
 function App() {
     const [count, setCount] = useState(0);
 
+    // const callServer = async () => {
+    //     try {
+    //         const response = await fetch('http://localhost:4000');
+    //         const data = await response.text();
+    //         console.log(data);
+    //     } catch (error) {
+    //         console.error(error);
+    //     }
+    // };
+
     return (
         <>
             <div>
+                {/* <button onClick={callServer}>Call Server</button> */}
                 <a href="https://vitejs.dev" target="_blank">
                     <img src={viteLogo} className="logo" alt="Vite logo" />
                 </a>
