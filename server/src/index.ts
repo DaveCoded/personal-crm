@@ -9,8 +9,7 @@ const PORT = process.env.PORT;
 const app = express();
 // support parsing of application/json type post data
 app.use(bodyParser.json());
-// TODO: enable only for required origins in production
-app.use(cors());
+app.use(cors()); // TODO: enable only for required origins in production
 
 app.get('/', (request: Request, response: Response) => {
     response.status(200).send('Hello World');
